@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import About from './components/About'
 import Nav from './components/Nav';
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+//import Contact from './components/Contact'
+//import Footer from './components/Footer'
 
 function App() {
 
   return (
     <div>
-      <Nav></Nav>
+     <Nav></Nav>
       <main>
         <About></About>
       </main>
