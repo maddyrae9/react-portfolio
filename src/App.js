@@ -3,7 +3,7 @@ import './App.css';
 import About from './components/About'
 import Nav from './components/Nav';
 //import Contact from './components/Contact'
-//import Footer from './components/Footer'
+import Footer from './components/Footer'
 
 function App() {
 
