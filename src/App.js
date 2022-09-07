@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import About from './components/About'
 import Nav from './components/Nav';
-//import Contact from './components/Contact'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
