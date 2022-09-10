@@ -1,6 +1,5 @@
 import React from 'react';
-import  {FaArrowRight, FaArrowDown}  from "react-icons/fa";
-const About = () => {
+const Hero = () => {
   return (
     <section id="Home" className="hero">
       <div className="oct">
@@ -12,11 +11,8 @@ const About = () => {
             <p>Full-stack web developer.</p>
             <a href="#Portfolio">
               <button
-                className="btn-1"
-              >
+                className="btn-1">
                 Recent Projects
-                <FaArrowRight className="arrowRight"></FaArrowRight>
-                <FaArrowDown className="arrowDown"></FaArrowDown>
               </button>
             </a>
           </span>
@@ -25,4 +21,4 @@ const About = () => {
     </section>
   );
 };
-export default About
+export default Hero;

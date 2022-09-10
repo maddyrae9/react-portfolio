@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import gameReviews from '../../assets/images/gameReviews.png';
-import vacationStation from '../../assets/images/vacation-sation.png';
+import vacationStation from '../../assets/images/vacation-station.png';
 
 const Portfolio = () => {
     const [recentWork] = useState([

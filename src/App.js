@@ -5,6 +5,9 @@ import Nav from './components/Nav';
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Hero from './components/Hero'
+import SocialLinks from './components/Footer'
+import Resume from './components/Resume'
 
 function App() {
   const [navLinks] = useState([
