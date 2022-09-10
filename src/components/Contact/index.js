@@ -7,7 +7,7 @@ function ContactForm({ showForm, setShowForm }) {
         email: "",
         message: "",
     });
-    const [name, email, message] =formState;
+    const {name, email, message} =formState;
     const [errorMessage, setErrorMessage] = useState("");
 
     function handleChange(event) {
