@@ -1,7 +1,7 @@
 import React from 'react';
 import resume from '../../assets/Resume.pdf'
-import pageOne from '../../assets/images/resume-pg1'
-import pageTwo from '../../assets/images/resume-pg2'
+import pageOne from '../../assets/images/resume-pg1.png'
+import pageTwo from '../../assets/images/resume-pg2.png'
 
 function Resume({ setShowResume }) {
     const onButtonClick = () => {
