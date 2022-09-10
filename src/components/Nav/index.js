@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 
 function Nav(props) {
     const { navLinks = [], 
@@ -7,9 +7,6 @@ function Nav(props) {
     setShowResume
 } = props;
 
-useEffect(() => {
-    document.title = currentNavLink.name;
-}, [currentNavLink]);
 
 const [showForm, setShowForm] = useState(false);
 
