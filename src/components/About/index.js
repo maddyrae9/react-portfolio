@@ -20,7 +20,7 @@ const About = () => {
                     </a>
                 </address>
                 <img
-                className="profile-pic my-2 mx-auto"
+                className="profile-pic"
                 src={profilePhoto}
                 alt="profile" />
             </div>

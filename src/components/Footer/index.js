@@ -3,7 +3,6 @@ import githubIcon from "../../assets/images/github-logo.png";
 import linkedinIcon from "../../assets/images/linkedinlogo.png";
 
 const socialLinks = () => {
-    
     return (
         <footer className="container">
             <p className="copy col">
@@ -22,5 +21,4 @@ const socialLinks = () => {
         </footer>
     );
 };
-
 export default socialLinks;
