@@ -1,7 +1,7 @@
 import React from 'react';
-import resume from '../../assets/Resume.pdf'
-import pageOne from '../../assets/images/resume-pg1.png'
-import pageTwo from '../../assets/images/resume-pg2.png'
+import resume from '../../assets/Resume.pdf';
+import pageOne from '../../assets/images/resume-pg1.png';
+import pageTwo from '../../assets/images/resume-pg2.png';
 
 function Resume({ setShowResume }) {
     const onButtonClick = () => {
@@ -22,8 +22,9 @@ function Resume({ setShowResume }) {
       <section id="Resume">
         <div className="resCont">
           <div className="resImg">
-            <div className="downloadBtn"
-            onclick={onButtonClick}></div>
+             <div className="downloadBtn"
+              onClick={onButtonClick}>
+              </div>
             <img className="img-1" src={pageOne} alt="resume page one"></img>
             <img className="img-1" src={pageTwo} alt="reume page two"></img>
           </div>
