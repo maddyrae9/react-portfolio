@@ -25,7 +25,7 @@ header a {
   text-decoration: none;
   color: var(--primary-color);
   padding: 60px 110px;
-  font-size: 19px;
+  font-size: 17px;
 }
 /*------------------------------Navigation----------------------------------------------------*/
 .navbar-toggler {
