@@ -3,7 +3,7 @@ import profilePhoto from '../../assets/images/profile.jpeg';
 
 const About = () => {
     return (
-        <section id="About Me">
+        <section id="About-Me">
             <div className="container">
                 <div className="row">
                     <div className='col-lg-7 d-flex align-items-center bio'>
