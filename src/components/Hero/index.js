@@ -1,4 +1,6 @@
 import React from 'react';
+import  {FaArrowRight, FaArrowDown}  from "react-icons/fa";
+
 const Hero = () => {
   return (
     <section id="Home" className="hero">
@@ -13,6 +15,8 @@ const Hero = () => {
               <button
                 className="btn-1">
                 Recent Projects
+                <FaArrowRight className="arrowRight"></FaArrowRight>
+                <FaArrowDown className="arrowDown"></FaArrowDown>
               </button>
             </a>
           </span>
