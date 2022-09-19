@@ -2,6 +2,7 @@
  
  ## Links
  -[Repo](https://github.com/maddyrae9/react-portfolio)
+ -[Live](https://maddyrae9.github.io/react-portfolio/)
 
  ## Description
  A professional web portfolio using REACT to allow managers to view my recent projects 

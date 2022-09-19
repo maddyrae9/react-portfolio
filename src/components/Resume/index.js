@@ -2,6 +2,8 @@ import React from 'react';
 import resume from '../../assets/Resume.pdf';
 import pageOne from '../../assets/images/resume-pg1.png';
 import pageTwo from '../../assets/images/resume-pg2.png';
+import { FaCloudDownloadAlt } from "react-icons/fa";
+import { MdClose } from "react-icons/md";
 
 function Resume({ setShowResume }) {
     const onButtonClick = () => {
@@ -22,6 +24,15 @@ function Resume({ setShowResume }) {
       <section id="Resume">
         <div className="resCont">
           <div className="resImg">
+          <FaCloudDownloadAlt
+              className="downloadBtn"
+              onClick={onButtonClick}
+            ></FaCloudDownloadAlt>
+            <MdClose
+              className="closeRes"
+              aria-label="Close modal"
+              onClick={() => setShowResume(false)}
+            ></MdClose>
              <div className="downloadBtn"
               onClick={onButtonClick}>
               </div>
