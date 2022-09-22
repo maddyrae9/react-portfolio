@@ -68,7 +68,7 @@ const toggleResume =() => {
                     </nav>
                 </div>
             </section>
-            {<contactForm showForm={showForm} setShowForm={setShowForm} />}
+            {<contactForm showForm= {showForm} setShowForm={setShowForm} />}
         </header>
     );
 }

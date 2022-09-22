@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import gameReviews from '../../assets/images/gameReviews.png';
 import vacationStation from '../../assets/images/vacation-station.png';
+import gameTime from '../../assets/images/game-time-img';
 
 const Portfolio = () => {
     const [recentWork] = useState([
@@ -17,6 +18,13 @@ const Portfolio = () => {
             link: "https:/vacationstation.herokuapp.com/",
             git: "https://github.com/maddyrae9/vacation-station",
             alt: "Vacation Grocery Delivery",
+        },
+        {
+            image: gameTime,
+            title: "Game Time",
+            link: "https://gametime-g6.herokuapp.com/",
+            git: "https://github.com/cdonais/game-time",
+            alt: "Game Time",
         },
     ]);
     return (

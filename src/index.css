@@ -3,6 +3,9 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif
 }
+@media (min-width: 767px)and (max-width: 768px) {
+  /* This will target your specific screen size*/
+  }
 :root {
   --primary-color: #26beff;
   --secondary-color: #000000;

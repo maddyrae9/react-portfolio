@@ -11,6 +11,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  @media (min-width: 767px)and (max-width: 768px) {
+    /* This will target your specific screen size*/
+    }
 }
 
 .App-header {
